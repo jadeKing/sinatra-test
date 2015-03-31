@@ -1,4 +1,8 @@
 require 'sinatra'
 get '/' do
-  'hello'
+  'hello!'
+end
+
+get '/' do
+  'This is a secret page'
 end
